@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM php:8.0-apache
+FROM php:8.2.17RC2-apache
 
 # persistent dependencies
 RUN set -eux; \
